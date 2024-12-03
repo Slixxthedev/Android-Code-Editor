@@ -56,5 +56,5 @@ jobs:
       - name: Upload editor aar debug
         uses: actions/upload-artifact@v3
         with:
-          name: Editor Debug Aar
+          name: Editor Debug AAR
           path: editor/build/outputs/aar/editor-debug.aar
