@@ -54,7 +54,7 @@ public class AceEditor implements Editor, ScaleGestureDetector.OnScaleGestureLis
 
     aceEditor.getSettings().setJavaScriptEnabled(true);
 
-    // disable zoom
+    // disable zoom.
     // webview.getSettings().setSupportZoom(false);
     aceEditor.getSettings().setSupportZoom(true);
 
